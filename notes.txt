@@ -1,0 +1,31 @@
+=====
+NOTES
+=====
+
+Yesterday
+- Trying to set up MySQL and PostgreSQL on GitHub runners
+- Issues
+    - Cannot run PostgreSQL commands properly via SQL script file
+- Try
+    - Reverting to CLI commands
+- Summary
+    - User installs mysql and postgres and creates admin user
+    - User provides creds for admin user via environment variables
+    - Run migrate_all_databases.sh -> create_db_secrets.py
+    - Run run_all_tests.sh -> create_db_secrets.py
+        - create_db_secrets.py uses creds from environment variables
+    - CI job
+        - Env vars set
+        - TODOs
+            - mysql
+                - create test user
+                - create test database
+            - postgresql
+
+
+=========
+FOLLOW UP
+=========
+- Make active vim window more obvious
+- How to deal with pre-commit re-writing open buffers?
+- Look into adjustable keyboard tray
