@@ -61,7 +61,7 @@ Having installed and started the database services, create a test user and a tes
 **MySQL**
 ```sql
 CREATE USER 'secretsmanager_test'@'localhost' IDENTIFIED BY 'Password123!';
-GRANT ALL PRIVILEGES ON *.* TO 'secretsmanager_test!'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'secretsmanager_test'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 CREATE DATABASE mysql_secretsmanager_test CHARACTER SET utf8;
 ```
