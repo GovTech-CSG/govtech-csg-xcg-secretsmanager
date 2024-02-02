@@ -1,5 +1,5 @@
 permissions:
-    contents: read
+  contents: read
 name: run-ci-tests
 on: [push, pull_request, workflow_dispatch]
 jobs:
