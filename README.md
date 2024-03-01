@@ -1,6 +1,6 @@
 # govtech-csg-xcg-secretsmanager
 
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8489/badge)](https://www.bestpractices.dev/projects/8489)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8498/badge)](https://www.bestpractices.dev/projects/8498)
 
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
