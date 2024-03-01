@@ -1,5 +1,7 @@
 # govtech-csg-xcg-secretsmanager
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8489/badge)](https://www.bestpractices.dev/projects/8489)
+
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
 Specifically, the Secrets Manager package provides AWS Secrets Manager support for Django secret key as well as database backends (MySQL and PostgreSQL).
